@@ -1,0 +1,22 @@
+{
+  "name": "@servicebus/core",
+  "version": "0.0.0-development",
+  "description": "core bus that other busses can extend that provides event emitter and middleware functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/servicebus/core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/servicebus/core/issues"
+  },
+  "homepage": "https://github.com/servicebus/core#readme",
+  "dependencies": {
+    "readable-id-mjs": "^1.0.0"
+  }
+}
