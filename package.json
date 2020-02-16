@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/servicebus/core#readme",
   "dependencies": {
+    "@servicebus/correlate": "^1.0.0",
+    "@servicebus/logger": "^1.0.0",
+    "@servicebus/message-domain": "^1.0.0",
+    "@servicebus/package": "^1.0.0",
     "readable-id-mjs": "^1.0.0"
   }
 }
