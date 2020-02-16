@@ -4,7 +4,7 @@
   "description": "core bus that other busses can extend that provides event emitter and middleware functionality",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
