@@ -4,7 +4,7 @@
   "description": "core bus that other busses can extend that provides event emitter and middleware functionality",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: no test specified\" && exit 0"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,12 @@
   "homepage": "https://github.com/servicebus/core#readme",
   "dependencies": {
     "@servicebus/correlate": "^1.0.0",
-    "@servicebus/logger": "^1.0.0",
+    "@servicebus/logger": "^1.0.1",
     "@servicebus/message-domain": "^1.0.0",
     "@servicebus/package": "^1.0.0",
     "readable-id-mjs": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
